@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <color name="textColorWhite"> #ffffff </color>
+    <color name="textColorBlack"> #000000 </color>
+    
+    <color name="mainBackground"> #f8edeb </color>
+    
+    <color name="formHead"> #ffcdb2 </color>
+    <color name="listHead"> #ffb4a2 </color>
+    <color name="infoHead"> #e5989b </color>
+    <color name="updateHead"> #b5838d </color>
+    
+    <color name="buttonLoad"> #8d99ae </color>
+    <color name="buttonClear"> #f4a261 </color>
+    <color name="buttonDelete"> #e63946 </color>
+    <color name="buttonUpdate"> #90be6d </color>
+    <color name="buttonBack"> #5e6472 </color>
+    <color name="buttonMain"> #3d5a80 </color>
+    
+    <color name="description"> #fcd5ce </color>
+    
+</resources>

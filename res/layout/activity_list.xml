@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/mainBackground"
+    android:orientation = "vertical"
+    tools:context=".MainList" >
+    
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textHeadList"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColorBlack"
+        android:background = "@color/listHead"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"
+        android:layout_weight = "0"/>
+    
+    <ListView
+        android:id = "@+id/listProducts"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:gravity = "center"
+        android:layout_weight = "1"
+        android:padding = "@dimen/_5sdp"
+        android:layout_marginBottom = "@dimen/_10sdp"/>
+    
+    <fragment
+        android:name = "com.example.myapplication_makeup.fragments.ListFragment"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:layout_weight = "0"
+        android:id = "@+id/list_fragment_1"
+        android:layout_marginBottom = "@dimen/_10sdp"
+        tools:layout = "@layout/list_fragment_1"/>
+    
+</LinearLayout>

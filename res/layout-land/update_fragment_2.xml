@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/mainBackground"
+    android:gravity = "center"
+    android:layout_gravity = "center" 
+    android:orientation = "vertical">
+    
+    <Button
+        android:id = "@+id/buttonUpdate"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textButtonUpdate"
+        android:textSize = "@dimen/_15ssp"
+        android:textColor = "@color/textColorWhite"
+        android:background = "@color/buttonUpdate"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_10sdp"/>
+    
+    <Button
+        android:id = "@+id/buttonBack"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textButtonBack"
+        android:textSize = "@dimen/_15ssp"
+        android:textColor = "@color/textColorWhite"
+        android:background = "@color/buttonBack"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_10sdp"
+        android:layout_marginTop = "@dimen/_10sdp"/>
+    
+    <Button
+        android:id = "@+id/buttonMain"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textButtonMain"
+        android:textSize = "@dimen/_15ssp"
+        android:textColor = "@color/textColorWhite"
+        android:background = "@color/buttonMain"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_10sdp"
+        android:layout_marginTop = "@dimen/_10sdp"/>
+    
+</LinearLayout>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/mainBackground"
+    android:orientation = "vertical"
+    android:focusable = "true"
+    android:focusableInTouchMode = "true"
+    tools:context=".MainForm" >
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textHeadForm"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColorBlack"
+        android:background = "@color/formHead"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"
+        android:layout_weight = "0"/>
+    
+    <ScrollView
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1">
+        
+        <fragment
+            android:name="com.example.myapplication_makeup.fragments.FormFragment"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/form_fragment"
+            android:layout_gravity = "center_vertical"
+            tools:layout = "@layout/form_fragment"/>
+        
+    </ScrollView>
+    
+    <Button
+        android:id = "@+id/buttonLoad"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textButtonLoad"
+        android:textSize = "@dimen/_18ssp"
+        android:gravity = "center"
+        android:layout_gravity = "center"
+        android:padding = "@dimen/_5sdp"
+        android:textColor = "@color/textColorWhite"
+        android:background = "@color/buttonLoad"
+        android:layout_weight = "0"
+        android:layout_marginBottom = "@dimen/_10sdp"/>
+
+</LinearLayout>

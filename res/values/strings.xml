@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApplication_Makeup</string>
+
+    <string name="textHeadForm"> ЗАПОЛНЕНИЕ ФОРМЫ </string>
+    <string name="textHeadList"> СПИСОК ТОВАРОВ </string>
+    <string name="textHeadInfo"> ПОДРОБНАЯ ИНФОРМАЦИЯ О ТОВАРЕ </string>
+    <string name="textHeadUpdate"> ОБНОВЛЕНИЕ ИНФОРМАЦИИ </string>
+    
+    <string name="textBrand"> ВЫБЕРИТЕ ФИРМУ: </string>
+    <string name="textProducts"> ВЫБЕРИТЕ ПРОДУКЦИЮ: </string>
+    <string name="textPrice"> УКАЖИТЕ ДИАПОЗОН ЦЕН ($): </string>
+    
+    <string name="textButtonLoad"> ПОИСК </string>
+    <string name="textButtonClear"> ОЧИСТИТЬ </string>
+    <string name="textButtonDelete"> УДАЛИТЬ </string>
+    <string name="textButtonUpdate"> ОБНОВИТЬ </string>
+    <string name="textButtonBack"> НАЗАД </string>
+    <string name="textButtonMain"> НА ГЛАВНУЮ </string>
+    
+    <string name="descriptionBrand"> ФИРМА </string>
+    <string name="descriptionName"> НАЗВАНИЕ </string>
+    <string name="descriptionPrice"> ЦЕНА ($) </string>
+    <string name="descriptionDescription"> ОПИСАНИЕ </string>
+    <string name="descriptionCreated"> ДАТА ВЫПУСКА </string>
+    
+    <string-array name="brands">
+        <item> all brands </item>
+        <item> almay </item>
+        <item> alva </item>
+        <item> anna sui </item>
+        <item> annabelle </item>
+        <item> benefit </item>
+        <item> boosh </item>
+        <item> burt\'s bees </item>
+        <item> butter london </item>
+        <item> c\'est moi </item>
+        <item> cargo cosmetics </item>
+        <item> covergirl </item>
+        <item> dior</item>
+        <item> dr.hauschka</item>
+        <item> e.l.f. </item>
+        <item> iman </item>
+        <item> l\'oreal </item>
+        <item> marcelle </item>
+        <item> marienatie </item>
+        <item> maybelline </item>
+        <item> milani </item>
+        <item> nyx </item>
+        <item> pacifica </item>
+        <item> revlon </item>
+        <item> smashbox </item>
+    </string-array>
+    
+    <string-array name="products">
+        <item> all products </item>
+        <item> blush </item>
+        <item> bronzer </item>
+        <item> eyebrow </item>
+        <item> eyeliner </item>
+        <item> eyeshadow </item>
+        <item> foundation </item>
+        <item> lip liner </item>
+        <item> lipstick </item>
+        <item> mascara </item>
+        <item> nail polish </item>
+    </string-array>
+    
+</resources>

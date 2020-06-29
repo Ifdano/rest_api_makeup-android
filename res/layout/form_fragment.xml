@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/mainBackground"
+    android:orientation = "vertical">
+    
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textBrand"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColorBlack"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"/>
+    
+     <Spinner
+        android:id = "@+id/spinnerBrand"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center_horizontal"
+        android:layout_gravity = "center_horizontal"/>
+    
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textProducts"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColorBlack"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"/>
+    
+    <Spinner
+        android:id = "@+id/spinnerProducts"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center_horizontal"
+        android:layout_gravity = "center_horizontal"/>
+    
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/textPrice"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColorBlack"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"/>
+    
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        android:gravity = "center" >
+        
+        <EditText
+            android:id = "@+id/editPriceMin"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:ems = "3"
+            android:hint = "0"
+            android:inputType = "number"
+            android:textColor = "@color/textColorBlack"
+            android:textSize = "@dimen/_18ssp"
+            android:padding = "@dimen/_5sdp"
+            android:gravity = "center"
+            android:layout_gravity = "center"/>
+        
+        <TextView
+        	android:layout_width = "wrap_content"
+        	android:layout_height = "wrap_content"
+        	android:text = "—"
+        	android:textSize = "@dimen/_18ssp"
+        	android:textColor = "@color/textColorBlack"
+        	android:layout_gravity = "center"
+        	android:gravity = "center"
+        	android:padding = "@dimen/_5sdp"/>
+        
+        <EditText
+            android:id = "@+id/editPriceMax"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:ems = "3"
+            android:hint = "100"
+            android:inputType = "number"
+            android:textColor = "@color/textColorBlack"
+            android:textSize = "@dimen/_18ssp"
+            android:padding = "@dimen/_5sdp"
+            android:gravity = "center"
+            android:layout_gravity = "center"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>
